@@ -8235,7 +8235,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
 
                                              /***********************nav bar width**************************/
-  .ftco-navbar-light .container {         
+  .ftco-navbar-light .container {
     background: #0d1128;
     width: 2000px; }
 
@@ -8256,7 +8256,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
     padding-left: 20px;
@@ -8315,8 +8315,10 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
         color: #fff;
         background: #fd5f00; } }
+
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #fd5f00; }
+    color: yellow; }
+
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
         color: #fff; } }
@@ -8684,7 +8686,7 @@ h1, h2, h3, h4, h5,
         border-color: #fff;
         color: #fd5f00; }
   .btn.btn-secondary {
-    background: #fda638;
+    background: black;
     border: 1px solid #fda638;
     color: #fff; }
     .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-secondary:active {
