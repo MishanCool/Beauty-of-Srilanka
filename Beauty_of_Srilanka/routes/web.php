@@ -19,10 +19,14 @@ Route::get('/', function () {
     return view('home.home');
 });
 
+// Route::get('/dashboard', function () {
+//     return view('admin.dashboard');
+// });
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('dashboard');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');

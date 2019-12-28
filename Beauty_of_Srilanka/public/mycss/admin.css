@@ -1,0 +1,24 @@
+#side_bar{
+    background-color:violet;
+}
+
+.card-profile{
+    width: 170px;
+    height: 200px;
+    background-color: black;
+}
+
+.card-profile .name{
+    color: aliceblue;
+}
+
+.card-profile .email{
+    color: aliceblue;
+}
+
+.card-profile .logout{
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+}
