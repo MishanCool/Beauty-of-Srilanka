@@ -76,3 +76,41 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+# Cool_soft
+Software and Designing Company
+
+# New Laravel
+laravel new cool_soft
+
+# Authentication
+composer require laravel/ui --dev
+php artisan ui vue --auth
+
+#require(vendor/autoload.php): failed to open stream
+composer install
+composer update
+
+# create database in localhost
+
+# genarate .env file
+cp .env.example .env
+php artisan key:generate 
+
+# Clear cache
+php artisan config:cache
+
+# Database: Migrations
+php artisan make:model Order -m   -> create model with migrations
+php artisan migrate
+
+php artisan migrate:rollback
+
+# Drop all tables
+php artisan migrate:fresh
+
+#Create midleware
+php artisan make:middleware chekRole
+
