@@ -113,4 +113,3 @@ php artisan migrate:fresh
 
 #Create midleware
 php artisan make:middleware chekRole
-

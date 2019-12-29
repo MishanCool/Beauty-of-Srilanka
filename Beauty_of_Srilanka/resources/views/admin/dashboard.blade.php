@@ -41,13 +41,13 @@
             </form>
             <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
+                <li class="nav-item"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
                 <li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
                 <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="{{ URL::to('/dashboard') }}" class="nav-link">Profile</a></li>
+                <li class="nav-item active"><a href="{{ URL::to('/dashboard') }}" class="nav-link">Dashboard</a></li>
                 {{-- <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li> --}}
 
             </ul>
@@ -89,6 +89,33 @@
                    </ul> --}}
                    {{-- <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li> --}}
                 </div>
+            </div>
+
+            <div class="col-md-6 p-4 p-md-8 order-md-last bg-light ml-5">
+                <div class="card-header text-center mb-3">{{ __('New Place') }}</div>
+                <form action="{{URL::to('/order')}}" method="POST">
+                                @csrf
+
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="author" placeholder="Author Name">
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="district" placeholder="Enter District">
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="title" placeholder="Enter Place Heding">
+                              </div>
+                              <div class="form-group">
+                                <textarea type="text"  class="form-control" name="body" placeholder="About Place" id="exampleFormControlTextarea1" rows="5"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlFile1">Insert Image</label>
+                                <input type="file" name="image" class="form-control-file" id="exampleFormControlFile1" placeholder="Insert Image">
+                              </div>
+                              <div class="form-group">
+                                <input type="submit" value="Create Place" class="btn btn-primary py-3 px-5">
+                              </div>
+                            </form>
             </div>
         </div>
     </section>
