@@ -113,3 +113,7 @@ php artisan migrate:fresh
 
 #Create midleware
 php artisan make:middleware chekRole
+
+<div class="form-group">
+                    <input type="text" class="form-control" name="district" placeholder="Enter District">
+                  </div>

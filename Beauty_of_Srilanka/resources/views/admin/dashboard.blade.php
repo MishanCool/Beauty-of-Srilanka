@@ -93,8 +93,9 @@
 
             <div class="col-md-6 p-4 p-md-8 order-md-last bg-light ml-5">
                 <div class="card-header text-center mb-3">{{ __('New Place') }}</div>
-                <form action="{{URL::to('/order')}}" method="POST">
-                                @csrf
+                <form action="{{ route('new_place')}}" method="POST" enctype="multipart/form-data">
+                                {{-- @csrf --}}
+                                {{ csrf_field() }}
 
                               <div class="form-group">
                                 <input type="text" class="form-control" name="author" placeholder="Author Name">
@@ -110,7 +111,7 @@
                               </div>
                               <div class="form-group">
                                 <label for="exampleFormControlFile1">Insert Image</label>
-                                <input type="file" name="image" class="form-control-file" id="exampleFormControlFile1" placeholder="Insert Image">
+                                <input type="file" name="image" class="form-control-file"  placeholder="Insert Image">
                               </div>
                               <div class="form-group">
                                 <input type="submit" value="Create Place" class="btn btn-primary py-3 px-5">
