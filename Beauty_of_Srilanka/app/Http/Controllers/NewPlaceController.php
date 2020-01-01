@@ -40,4 +40,11 @@ class NewPlaceController extends Controller
 
         return view('admin.dashboard')->withSuccess('Great!   New place has been successfully uploaded.');
     }
+
+    public function display() {
+        //$home_front = NewPlaceModel::select('select * add_places');
+        $home_front = NewPlaceModel::all();
+        //return view('/')->with('home_front', $home_front);
+        return view('home.home',['home_front'=>$home_front]);
+    }
 }

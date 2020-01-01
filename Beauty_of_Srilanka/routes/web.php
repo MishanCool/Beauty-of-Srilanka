@@ -29,6 +29,8 @@ Route::get('/home', 'HomeController@index')->name('dashboard');
 
 Route::post('/new_place', 'NewPlaceController@store')->name('new_place');
 
+Route::get('/', 'NewPlaceController@display');
+
 
 // Auth::routes();
 

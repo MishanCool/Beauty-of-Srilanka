@@ -110,9 +110,19 @@
             </div>
         </div>
 
-        <div class="col-md-11 ftco-animate">
-
+        <div class="col-md-11">
+            @foreach ($home_front as $new_place)
+                <div class="card mb-3">
+                    <img src="{{ $new_place->image }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">{{ $new_place->title }}</h5>
+                    <p class="card-text">{{ $new_place->body }}</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            @endforeach
         </div>
+
     </div>
 
       <section class="ftco-section ftco-no-pt ftc-no-pb">
