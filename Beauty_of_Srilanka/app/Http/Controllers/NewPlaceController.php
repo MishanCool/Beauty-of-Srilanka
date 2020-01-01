@@ -31,14 +31,12 @@ class NewPlaceController extends Controller
             $new_place->image = '';
         }
 
-        // echo "fgggggggg".$new_place;
-
         $new_place->save();
 
 
         //return redirect()->route('admin.dashboard');
 
-        return view('admin.dashboard')->withSuccess('Great!   New place has been successfully uploaded.');
+        return view('admin.dashboard');//->withSuccess('Great!   New place has been successfully uploaded.');
     }
 
     public function display() {

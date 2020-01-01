@@ -110,10 +110,10 @@
             </div>
         </div>
 
-        <div class="col-md-11">
+        <div class="col-md-4">
             @foreach ($home_front as $new_place)
-                <div class="card mb-3">
-                    <img src="{{ $new_place->image }}" class="card-img-top" alt="...">
+                <div class="card mb-3" style="width: 25rem;">
+                    <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{ $new_place->title }}</h5>
                     <p class="card-text">{{ $new_place->body }}</p>

@@ -94,8 +94,8 @@
             <div class="col-md-6 p-4 p-md-8 order-md-last bg-light ml-5">
                 <div class="card-header text-center mb-3">{{ __('New Place') }}</div>
                 <form action="{{ route('new_place')}}" method="POST" enctype="multipart/form-data">
-                                {{-- @csrf --}}
-                                {{ csrf_field() }}
+                                @csrf
+                                {{-- {{ csrf_field() }} --}}
 
                               <div class="form-group">
                                 <input type="text" class="form-control" name="author" placeholder="Author Name">
