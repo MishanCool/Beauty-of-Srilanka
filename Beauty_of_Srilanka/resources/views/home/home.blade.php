@@ -110,16 +110,59 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-9 ml-5">
             @foreach ($home_front as $new_place)
-                <div class="card mb-3" style="width: 25rem;">
+                {{-- <div class="card mb-3" style="width: 25rem;">
                     <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">{{ $new_place->title }}</h5>
                     <p class="card-text">{{ $new_place->body }}</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
+                </div> --}}
+
+                <div class="card mb-3 mt-4" style="max-width: 1540px; height:500px">
+                    <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">{{ $new_place->title }}</h5>
+                        <p class="card-text">{{ $new_place->body }}</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    </div>
                 </div>
+
+
+                {{-- <div class="card-deck">
+                    <div class="card">
+                        <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">{{ $new_place->title }}</h5>
+                        <p class="card-text">{{ $new_place->body }}</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">{{ $new_place->title }}</h5>
+                        <p class="card-text">{{ $new_place->body }}</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">{{ $new_place->title }}</h5>
+                        <p class="card-text">{{ $new_place->body }}</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                  </div> --}}
             @endforeach
         </div>
 
