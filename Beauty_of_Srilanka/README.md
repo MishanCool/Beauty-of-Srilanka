@@ -117,3 +117,9 @@ php artisan make:middleware chekRole
 <div class="form-group">
                     <input type="text" class="form-control" name="district" placeholder="Enter District">
                   </div>
+
+# cache clear
+php artisan cache:clear
+php artisan route:cache  
+php artisan config:cache  
+php artisan view:clear 

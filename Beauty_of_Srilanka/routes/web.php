@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('home.home');
 });
 
+// Route::get('/test', function () {
+//     return view('test.test');
+// });
+
 // Route::get('/dashboard', function () {
 //     return view('admin.dashboard');
 // });
