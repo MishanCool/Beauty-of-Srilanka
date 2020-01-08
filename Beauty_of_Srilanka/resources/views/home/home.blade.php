@@ -49,7 +49,6 @@
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                 <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Sign In</a></li>
                 <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li>
-                <li class="nav-item"><a href="{{ URL::to('/test') }}" class="nav-link">Test</a></li>
 
             </ul>
             </div>
@@ -130,8 +129,8 @@
                     <div class="col-md-8">
                         <div class="card-body">
                         <h5 class="card-title">{{ $new_place->title }}</h5>
-                        <p class="card-text">{{ $new_place->body }}</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="card-text">{!! $new_place->body !!}</div>
+                        <p class="card-text"><small class="text-muted">{{ $new_place->updated_at }}</small></p>
                         </div>
                     </div>
                     </div>

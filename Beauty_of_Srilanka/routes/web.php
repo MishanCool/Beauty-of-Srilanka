@@ -39,3 +39,9 @@ Route::get('/', 'NewPlaceController@display');
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
+
+// Route::get('/district/{district}',function($district){
+
+//     $dadta = dkfj::where('dist',$d)
+//     dd($district);
+// });
