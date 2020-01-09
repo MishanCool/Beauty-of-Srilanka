@@ -43,8 +43,10 @@ Route::get('/', 'NewPlaceController@display');
 
 // Route::get('/home', 'HomeController@index')->name('home');
 
-// Route::get('/district/{district}',function($district){
+Route::get('/district/{district}',function($district){
 
-//     $dadta = dkfj::where('dist',$d)
-//     dd($district);
-// });
+
+    // dd($district);
+    return view('places.places');
+
+})->name('disc');
