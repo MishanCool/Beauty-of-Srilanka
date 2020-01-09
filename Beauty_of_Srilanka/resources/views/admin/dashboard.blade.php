@@ -118,6 +118,24 @@
                               </div>
                             </form>
             </div>
+
+            {{-- <div class="col-md-2">
+                <table border = "2">
+                    <tr>
+                       <td>ID</td>
+                       <td>Name</td>
+                       <td>Edit</td>
+                    </tr>
+                    @foreach ($places as $place)
+                    <tr>
+                       <td>{{ $place->id }}</td>
+                       <td>{{ $place->district }}</td>
+                       <td>{{ $place->title }}</td>
+                       <td><a href = 'delete/{{ $place->id }}'>Delete</a></td>
+                    </tr>
+                    @endforeach
+                 </table>
+            </div> --}}
         </div>
     </section>
 

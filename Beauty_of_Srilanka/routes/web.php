@@ -35,6 +35,9 @@ Route::post('/new_place', 'NewPlaceController@store')->name('new_place');
 
 Route::get('/', 'NewPlaceController@display');
 
+// Route::get('delete-records','NewPlaceController@recodes');
+
+// Route::get('delete/{id}','NewPlaceController@destroy');
 
 // Auth::routes();
 

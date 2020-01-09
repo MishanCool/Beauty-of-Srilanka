@@ -123,3 +123,29 @@ php artisan cache:clear
 php artisan route:cache  
 php artisan config:cache  
 php artisan view:clear 
+
+
+{{-- <div class="col-md-1 ftco-animate" id="side-nav">
+            {{-- <div class="btn-group-vertical ml-4">
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Jafna</button>
+            <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+                <button type="button" class="btn btn-secondary">Galle</button>
+                <button type="button" class="btn btn-secondary">Kandy</button>
+            </div>
+        </div> --}}

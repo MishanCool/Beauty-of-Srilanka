@@ -61,4 +61,17 @@ class NewPlaceController extends Controller
         //return view('/')->with('home_front', $home_front);
         return view('home.home',['home_front'=>$home_front]);
     }
+
+    // public function recodes()
+    // {
+    //     $places = NewPlaceModel::all();
+    //     return view('/home',['places'=>$places]);
+    // }
+
+    // public function destroy($id) {
+
+    //     NewPlaceModel::delete('delete from add_places where id = ?',[$id]);
+    //     echo "Record deleted successfully.<br/>";
+    //     echo '<a href = "/delete-records">Click Here</a> to go back.';
+    //  }
 }

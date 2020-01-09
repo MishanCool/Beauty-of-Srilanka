@@ -84,89 +84,71 @@
         </div>
       </section>
 
-      <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-        <div class="col-md-1 ftco-animate" id="side-nav">
-            <div class="btn-group-vertical ml-4">
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Jafna</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
-                <button type="button" class="btn btn-secondary">Galle</button>
-                <button type="button" class="btn btn-secondary">Kandy</button>
+      <section class="ftco-section ftco-no-pt ftc-no-pb">
+          <div class="row text-center ml-5">
+            <div class="col-md-4">
+                <div class="row mt-4">
+                    <div class="col-4">
+                      <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
+                      </div>
+                    </div>
+                    {{-- <div class="col-8">
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                      </div>
+                    </div> --}}
+                  </div>
             </div>
-        </div>
 
-        <div class="col-md-9 ml-5">
-            @foreach ($home_front as $new_place)
-                {{-- <div class="card mb-3" style="width: 25rem;">
-                    <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">{{ $new_place->title }}</h5>
-                    <p class="card-text">{{ $new_place->body }}</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div> --}}
-
-                <div class="card mb-3 mt-4" style="max-width: 1540px; height:500px">
+            <div class="col-md-6 mr-5">
+                @foreach ($home_front as $new_place)
+                <div class="card mb-3 mt-4 mr-5" style="max-width: 1240px; height:500px">
                     <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <h5 class="card-title">{{ $new_place->title }}</h5>
-                        <div class="card-text">{!! $new_place->body !!}</div>
-                        <p class="card-text"><small class="text-muted">{{ $new_place->updated_at }}</small></p>
+                        <div class="col-md-4">
+                            <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 15rem; height:auto;" class="card-img-top" alt="...">
                         </div>
-                    </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">{{ $new_place->title }}</h5>
+                            <div class="card-text">{!! $new_place->body !!}</div>
+                            <p class="card-text"><small class="text-muted">{{ $new_place->updated_at }}</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
-                {{-- <div class="card-deck">
-                    <div class="card">
-                        <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">{{ $new_place->title }}</h5>
-                        <p class="card-text">{{ $new_place->body }}</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">{{ $new_place->title }}</h5>
-                        <p class="card-text">{{ $new_place->body }}</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 25rem; height:auto;" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">{{ $new_place->title }}</h5>
-                        <p class="card-text">{{ $new_place->body }}</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                  </div> --}}
             @endforeach
-        </div>
+            </div>
 
-    </div>
+          </div>
+      </section>
+
 
       <section class="ftco-section ftco-no-pt ftc-no-pb">
         <div class="container">
