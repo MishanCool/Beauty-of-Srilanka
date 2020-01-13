@@ -41,13 +41,14 @@
             </form>
             <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
+                <li class="nav-item"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
                 <li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
                 <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Sign In</a></li>
+                <li class="nav-item active"><a href="blog.html" class="nav-link">($district)</a></li>
+                {{-- <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Sign In</a></li> --}}
                 <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li>
 
             </ul>
@@ -82,7 +83,88 @@
           </div>
           </div>
         </div>
+
+        <div class="slider-item" style="background-image:url(../../../images/home3.jpg);">
+            <div class="overlay"></div>
+          <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+            <div class="col-md-6 ftco-animate">
+              <h1 class="mb-4">Beautify of Sri Lanka</h1>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              {{-- <a><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></a> --}}
+            </div>
+          </div>
+          </div>
+        </div>
+
       </section>
+
+
+
+      <section class="ftco-section ftco-no-pt ftc-no-pb">
+        <div class="row text-center ml-5">
+          <div class="col-md-4">
+              <div class="row mt-4">
+                  <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" href="{{route('disc',['district'=>'Gale'])}}"  aria-controls="home">GALLE</a>
+                      <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'Kandy'])}}" aria-controls="profile">KANDY</a>
+                      <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'Colombo'])}}" aria-controls="messages">COLOMBO</a>
+                      <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'Mahanuvara'])}}" aria-controls="settings">ANURADAPURA</a>
+                      <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                      <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="profile">KANDY</a>
+                      <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="messages">COLOMBO</a>
+                      <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                      <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                      <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}" role="tab" aria-controls="profile">KANDY</a>
+                      <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" role="tab" aria-controls="messages">COLOMBO</a>
+                      <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                      <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                      <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}" role="tab" aria-controls="profile">KANDY</a>
+                      <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="messages">COLOMBO</a>
+                      <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                      <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                      <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}"  aria-controls="profile">KANDY</a>
+                      <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="messages">COLOMBO</a>
+                      <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                      <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                      <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="profile">KANDY</a>
+                      <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="messages">COLOMBO</a>
+                      <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                    </div>
+                  </div>
+                  {{-- <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+                      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+                      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                    </div>
+                  </div> --}}
+                </div>
+          </div>
+
+          {{-- <div class="col-md-6 mr-5">
+              @foreach ($home_front as $new_place)
+              <div class="card mb-3 mt-4 mr-5" style="max-width: 1240px; height:500px">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="{{ asset('uploads/new_place/' . $new_place->image) }}" style="width: 15rem; height:auto;" class="card-img-top" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                          <h5 class="card-title">{{ $new_place->title }}</h5>
+                          <div class="card-text">{!! $new_place->body !!}</div>
+                          <p class="card-text"><small class="text-muted">{{ $new_place->updated_at }}</small></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          @endforeach
+          </div> --}}
+
+        </div>
+    </section>
 
 
 

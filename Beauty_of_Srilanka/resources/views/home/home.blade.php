@@ -90,30 +90,30 @@
                 <div class="row mt-4">
                     <div class="col-4">
                       <div class="list-group" id="list-tab" role="tablist">
-                      <a class="list-group-item list-group-item-action active" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}"  aria-controls="home">GALLE</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
-                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
-                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
-                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
-                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
-                        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">GALLE</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">KANDY</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">COLOMBO</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ANURADAPURA</a>
+                      <a class="list-group-item list-group-item-action active" id="list-home-list" href="{{route('disc',['district'=>'Gale'])}}"  aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'Kandy'])}}" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'Colombo'])}}" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'Mahanuvara'])}}" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}" role="tab" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" role="tab" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}" role="tab" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}"  aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
+                        <a class="list-group-item list-group-item-action" id="list-home-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="home">GALLE</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="profile">KANDY</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="messages">COLOMBO</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" href="{{route('disc',['district'=>'gale'])}}" aria-controls="settings">ANURADAPURA</a>
                       </div>
                     </div>
                     {{-- <div class="col-8">
