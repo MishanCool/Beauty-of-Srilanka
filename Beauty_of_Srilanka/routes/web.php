@@ -45,7 +45,6 @@ Route::get('/', 'NewPlaceController@display');
 
 Route::get('/district/{district}',function($district){
 
-
     // dd($district);
     return view('places.places');
 
